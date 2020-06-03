@@ -3,7 +3,7 @@ Fan controller for dietpi running on RockPro64 with NGINX http interface
 
 Switches RockPro64 FAN-Port on and off, PWM modulation not yet implementet.
 Has some intelligent features for simple hysteresis by sleeping for n seconds if target is not met in the second check-cycle.
-This means that your fan will not switch on and off rapidly if the temperature goal is reached.
+This means that your fan will not switch on and off rapidly if the temperature goal is reached shortly after starting it.
 
 Needs NGINX (or any http server [may need to troubleshoot yourself]) for webinterface and base64 for embedded interface icons 
 
